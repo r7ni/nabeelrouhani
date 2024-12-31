@@ -3,6 +3,10 @@
     font-family: 'diwani';
     src: url('diwani.ttf');
 }
+@font-face {
+  font-family: 'farsi';
+  src: url('farsi.ttf');
+}
 
 .background {
     position: fixed; 
@@ -43,16 +47,15 @@
   h1.c {
     margin: 0;
     margin-bottom: 0px;
-    font-size: 2.8em;
+    font-size: 3em;
     position: relative;
+    font-family: 'farsi';
+    bottom: -10px;
   }
+
   body.fa{
     position: relative;
-    top: -2px;
-  }
-  body.fa{
-    position: relative;
-    top: -14px;
+    top: -23px;
   }
   /* New styles for the container that holds the three links */
   .link-container {
